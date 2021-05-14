@@ -1,8 +1,8 @@
 {
-    "project_name": "fries of freedom",
+    "project_name": "{% now 'local' %} fries of freedom",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "full_name": "Warren Winfried Kretzschmar",
     "email": "warren.kretzschmar@ki.se",
     "github_username": "winni2k",
-    "copyright_year": "2021"
+    "copyright_year": "{% now 'local', '%Y' %}"
 }
