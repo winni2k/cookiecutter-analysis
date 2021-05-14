@@ -1,6 +1,6 @@
 {
     "project_name": "fries of freedom",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "full_name": "Warren Winfried Kretzschmar",
     "email": "warren.kretzschmar@ki.se",
     "github_username": "winni2k",
