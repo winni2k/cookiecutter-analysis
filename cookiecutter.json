@@ -1,5 +1,7 @@
 {
-    "project_name": "{% now 'local' %} fries of freedom",
+    "date": "{% now 'local' %}",
+    "name": "fries of freedom",
+    "project_name": "{{cookiecutter.date}} {{cookiecutter.name}}",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "full_name": "Warren Winfried Kretzschmar",
     "email": "warren.kretzschmar@ki.se",
