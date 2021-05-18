@@ -1,3 +1,3 @@
-    #!/bin/bash
-    set -euo pipefail
-    IFS=$'\n\t'
+#!/bin/bash
+set -euo pipefail
+IFS=$'\n\t'
